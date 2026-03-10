@@ -1,0 +1,90 @@
+:root {
+--main-blue-color : #889798;
+--main-green-color : #87947b;
+--main-tan-color: #d1a77d;
+--main-pink-color: #d7b0a4;
+}
+
+.nav-container {
+    background-color: var(--main-tan-color);
+    color: #725c45;
+}
+
+.hero {
+    background-color: #d7b0a4;
+    padding: 40px;
+}
+
+.hero h1 {
+
+    font-size: 50px;
+    font-family: "Playfair Display SC", serif;
+    color: #725c45;
+}
+
+.hero button {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: var(--main-tan-color);
+    border: none;
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    font-family: "Playfair", serif;
+}
+
+h2 {
+    font-family: "Playfair", serif;
+}
+
+.about-container {
+    padding: 50px;
+}
+
+.about-container p {
+    font-family: "Abhaya Libre", serif;
+}
+
+.experience-container {
+    text-align: center;
+}
+
+.experience-container li {
+    list-style: none;
+}
+
+.projects-container h2 {
+    padding: 20px;
+}
+
+.project {
+    padding: 30px;
+}
+
+.one {
+    background-color: var(--main-blue-color);
+}
+
+.two {
+    background-color: var(--main-green-color);
+}
+
+.three {
+    background-color: var(--main-pink-color);
+}
+
+.four {
+    background-color: var(--main-tan-color);
+}
+
+.five {
+    background-color: var(--main-blue-color);
+}
+
+.contact-container {
+    text-align: center;
+    padding: 30px;
+}
