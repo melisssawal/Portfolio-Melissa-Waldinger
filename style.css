@@ -1,0 +1,12 @@
+:root {
+--main-blue-color : #889798;
+--main-green-color : #87947b;
+--main-tan-color: #d1a77d;
+--main-pink-color: #d7b0a4;
+}
+
+.nav-container {
+    background-color: var(--main-tan-color);
+    color: #725c45;
+}
+
