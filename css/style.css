@@ -1,0 +1,201 @@
+:root {
+--main-blue-color : #889798;
+--main-green-color : #87947b;
+--main-tan-color: #d1a77d;
+--main-pink-color: #d7b0a4;
+}
+
+
+.hero {
+    background-image: url('../media/Portfolio-Banner-Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-family: "Playfair Display SC", serif;
+    color: #7b8a8b;
+}
+
+.hero h3 {
+    color: var(--main-blue-color);
+}
+
+.hero button {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: var(--main-blue-color);
+    border: none;
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 200ms ease-in-out;
+}
+
+.hero button:hover {
+    color: var(--main-blue-color);
+    background-color: white;
+    transition: all 200ms ease-in-out;
+    }
+
+
+h3 {
+    font-family: "Playfair", serif;
+}
+
+h2 {
+    font-family: "Playfair", serif;
+    color: var(--main-blue-color);
+}
+
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.about-container {
+    margin: 50px 400px;
+    padding: 60px;
+}
+
+
+p {
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.experience-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.experience-container ul {
+    padding-left: 0px;
+}
+
+.experience-container li {
+    list-style: none;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+
+.projects-container h2 {
+    padding: 20px;
+    opacity: 80%;
+}
+
+.project {
+    padding: 30px;
+}
+
+.one {
+    background-color: var(--main-blue-color);
+}
+
+.one button {
+    background-color: #7b8a8b;
+    transition: all 200ms ease-in-out;
+}
+
+.one button:hover {
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.two {
+    background-color: var(--main-green-color);
+}
+
+.two button {
+    background-color:#79856e;
+}
+.two button:hover {
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.three {
+    background-color: var(--main-pink-color);
+}
+
+.three button {
+    background-color: #c5a298;
+}
+
+.three button:hover {
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.four {
+    background-color: var(--main-tan-color);
+}
+
+.four button {
+    background-color: #c09a74;
+}
+
+.four button:hover {
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.five {
+    background-color: var(--main-blue-color);
+}
+
+.five button {
+    background-color: #7b8a8b;
+}
+
+.five button:hover {
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+    text-align: center;
+    padding: 30px;
+    margin: 80px;
+}
+
+.contact-container h2 {
+    font-size: 50px;
+}
+
+.contact-container .email-link {
+    font-size: 25px;
+}
+
+.contact-container button {
+    color: var(--main-blue-color);
+    background-color: white;
+    box-shadow: none;
+    font-family: "Abhaya Libre", serif;
+    
+}
+
+.contact-container button:hover {
+    color: white;
+    background-color: var(--main-blue-color);
+    transition: all 200ms ease-in-out;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+ 
