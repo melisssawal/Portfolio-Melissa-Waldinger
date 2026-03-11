@@ -41,6 +41,11 @@
     transition: all 200ms ease-in-out;
     }
 
+.project img {
+    background-color: transparent;
+    border: none;
+}
+
 
 h3 {
     font-family: "Playfair", serif;
