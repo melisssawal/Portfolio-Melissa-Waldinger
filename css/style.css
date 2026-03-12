@@ -1,8 +1,11 @@
 :root {
 --main-blue-color : #889798;
---main-green-color : #87947b;
---main-tan-color: #d1a77d;
---main-pink-color: #d7b0a4;
+--main-tan-color: #e3d4c2;
+--main-taupe-color: #cec1b0;
+}
+
+.nav-container {
+    background-color: #cec1b0;
 }
 
 
@@ -15,13 +18,14 @@
 }
 
 .hero h1 {
-    font-size: 50px;
-    font-family: "Playfair Display SC", serif;
+    font-size: 75px;
+   font-family: "Playfair Display SC", serif;
     color: #7b8a8b;
 }
 
 .hero h3 {
     color: var(--main-blue-color);
+    font-size: 50px;
 }
 
 .hero button {
@@ -41,12 +45,6 @@
     transition: all 200ms ease-in-out;
     }
 
-.project img {
-    background-color: transparent;
-    border: none;
-}
-
-
 h3 {
     font-family: "Playfair", serif;
 }
@@ -54,6 +52,7 @@ h3 {
 h2 {
     font-family: "Playfair", serif;
     color: var(--main-blue-color);
+    font-size: 60px;
 }
 
 button {
@@ -67,15 +66,9 @@ button {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
-.about-container {
-    margin: 50px 400px;
-    padding: 60px;
-}
-
-
 p {
     font-family: "Abhaya Libre", serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 a {
@@ -83,9 +76,15 @@ a {
     color: black;
 }
 
+
+.about-container {
+    margin: 80px 400px;
+    padding: 60px;
+}
+
 .experience-container {
     text-align: center;
-    margin: 50px;
+    margin: 80px;
 }
 
 .experience-container ul {
@@ -98,14 +97,32 @@ a {
     font-size: 20px;
 }
 
-
 .projects-container h2 {
-    padding: 20px;
-    opacity: 80%;
+padding-top: 60px;
+padding-left: 300px;
 }
 
 .project {
-    padding: 30px;
+    padding: 20px;
+    background-opacity: 80%;
+}
+
+.project h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.project-description {
+    padding-left: 300px;
+    padding-top: 70px;
+    color: white;
+}
+
+.project img {
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .one {
@@ -123,11 +140,11 @@ a {
 }
 
 .two {
-    background-color: var(--main-green-color);
+    background-color: var(--main-tan-color);
 }
 
 .two button {
-    background-color:#79856e;
+    background-color:#d8cab9;
 }
 .two button:hover {
     transition: all 200ms ease-in-out;
@@ -135,11 +152,11 @@ a {
 }
 
 .three {
-    background-color: var(--main-pink-color);
+    background-color: var(--main-taupe-color);
 }
 
 .three button {
-    background-color: #c5a298;
+    background-color: #beb3a3;
 }
 
 .three button:hover {
@@ -152,7 +169,7 @@ a {
 }
 
 .four button {
-    background-color: #c09a74;
+    background-color: #d8cab9;
 }
 
 .four button:hover {
@@ -180,7 +197,7 @@ a {
 }
 
 .contact-container h2 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .contact-container .email-link {
