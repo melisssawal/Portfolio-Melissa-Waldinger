@@ -11,35 +11,35 @@
     <link rel="icon" href="media/MW-Logo.png" type="image/png">
     <title>Melissa Waldinger | Front End Developer</title>
     <link rel="stylesheet" href="/css/style.css">
-   <script src="https://kit.fontawesome.com/3fd6f10c39.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3fd6f10c39.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
   <!-- Navbar -->
 
 <div class="nav-container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg  fixed-top bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="media/MW-Logo.png" alt="Melissa Waldinger" width="45" height="45"></a>
+    <a class="navbar-brand" href="#hero-link"><img src="media/MW-Logo.png" alt="Melissa Waldinger" width="45" height="45"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#hero-link">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" aria-current="page" href="#about-link">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Experience</a>
+          <a class="nav-link" href="#experience-link">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Projects</a>
+          <a class="nav-link" href="#projects-link" aria-disabled="false">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Contact</a>
+          <a class="nav-link" href="#contact-link" aria-disabled="true">Contact</a>
         </li>
       </ul>
     </div>
@@ -49,12 +49,12 @@
 
 <!-- Hero including background photo and intro -->
 
-<div class="hero">
+<div class="hero" id="hero-link">
   <div class="row">
-    <div class="col">
+    <div class="col hero-text">
     <h1>Melissa Waldinger</h1>
     <h3>Front-End Developer</h3>
-    <button>LET'S CONNECT</button>
+    <a href="#contact-link"><button>LET'S CONNECT</button></a>
   </div>
   <div class="col">
     <img src="" alt=""></div>
@@ -63,29 +63,35 @@
 
 <!-- About me section -->
 
+<div class="quote">
+  <p>"The <i><b>biggest</b></i> risk is to take <i><b>no risk</b></i> at all" --</p>
+</div>
+
 <div class="about-container">
-    <h2>ABOUT</h2>
-    <p>My name is Melissa Waldinger. I am an aspiring front-end developer based out of Georgia, transitioning from a successful career in education to pursue my passion in technology. With a background in STEM teaching, I spent years introducing students to coding through hands on learning. I worked with Code.org on many occasions to stimulate enthusiasm for computer science. Those experiences sparked my own interest to delve deeper into web development.</p>
+    <h2  id="about-link">ABOUT</h2>
+    <p id="about-link">My name is Melissa Waldinger. I am an aspiring front-end developer based out of Georgia, transitioning from a successful career in education to pursue my passion in technology. With a background in STEM teaching, I spent years introducing students to coding through hands on learning. I worked with Code.org on many occasions to stimulate enthusiasm for computer science. Those experiences sparked my own interest to delve deeper into web development.</p>
     <p>While I am early in my tech professional journey, I bring strong problem solving skills and a quick level of adaptability. My years as an educator taught me how to approach challenges with curiosity and persistence. I am excited to grow as a developer and offer my unique perspective as a creative individual to build engaging, user-friendly web experiences. Eager to put my talents to the test, I am ready to enhance any company's high tech endeavors.</p>
 </div>
 
 <!-- Experiences section -->
 
 <div class="experience-container">
-    <h2>EXPERIENCE</h2>
+    <h2 id="experience-link">EXPERIENCES</h2>
     <ul>
         <li>React</li>
-        <li>Node.js</li>
+        <li>VS Code</li>
         <li>Python</li>
         <li>Bootstrap</li>
         <li>Javascript</li>
+        <li>Node.js</li>
     </ul>
+    <a href="https://www.canva.com/design/DAHC2ENkghA/M0GCoONHNkziP77lUOGDag/view?utm_content=DAHC2ENkghA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4b060f66a8" target="_blank"><button>RESUME</button></a>
 </div>
 
 <!-- Project section -->
 
 <div class="projects-container">
-  <h2>PROJECTS</h2>
+  <h2 id="projects-link">PROJECTS</h2>
   <div class="project one">
     <div class="row">
       <div class="col-6 project-description">
@@ -192,13 +198,14 @@
 
 <!-- Contact section -->
 <div class="contact-container">
-  <h2>LET'S CONNECT</h2>
+  <h2 id="contact-link">LET'S CONNECT</h2>
+  <hr>
   <a href="mailto:melissa.waldinger@gmail.com" class="email-link d-flex justify-content-center" target="_blank"> <button>melissa.waldinger@gmail.com</button></a>
-<div class="social-links">
-    <i class="fa-brands fa-github"><a href="https://www.github.com/melissawaldinger" title="Github Profile" target="_blank">
-    </a></i>
-    <a href="www.linkedin.com/in/melissa-waldinger-9a2797282" target="_blank">
-      <i class="fa-brands fa-square-linkedin"></i>
+<div class="social-links d-flex justify-content-center">
+    <span><a href="https://www.github.com/melissawaldinger" title="Github Profile" target="_blank">
+    <i class="fa-brands fa-github fa-xl"></i></a></span>
+    <span><a href="www.linkedin.com/in/melissa-waldinger-9a2797282" target="_blank">
+      <i class="fa-brands fa-linkedin fa-xl"></i></span>
     </a>
 </div>
 
