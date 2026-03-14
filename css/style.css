@@ -28,12 +28,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10px;
     margin-top: 71px;
 }
 
+.hero-img {
+margin: 0px;
+display: block;
+max-width: 30%;
+}
+
 .hero-text {
-    padding: 145px;
+    padding-top: 145px;
+    padding-left: 145px;
 
 }
 
@@ -51,7 +57,7 @@
 .hero button {
     border-radius: 10px;
     padding: 15px;
-    margin: 10px 0px;
+    margin: 50px 0px;
     background-color: var(--main-blue-color);
     border: none;
     color: white;
@@ -272,10 +278,12 @@ hr {
 }
 
 .social-links  a {
-    color: var(--main-taupe-color);
+    color: white;
+    background-color: #7b8a8b;
     margin: 20px;
-    padding: 18px;
-    font-size: 40px;
+    padding: 11px 12px;
+    font-size: 20px;
+    border-radius: 50%;
     transition: all 100ms ease-in-out;
 }
  
