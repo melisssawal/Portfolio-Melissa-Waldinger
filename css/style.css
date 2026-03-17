@@ -4,6 +4,8 @@
 --main-taupe-color: #cec1b0;
 }
 
+/*Hero Section*/
+
 .nav-container {
     background-color: #cec1b0;
     font-family: "Playfair Display SC", serif;
@@ -73,6 +75,8 @@ padding-bottom: 30px;
     transition: all 200ms ease-in-out;
     }
 
+/*General CSS*/
+
 h3 {
     font-family: "Playfair", serif;
 }
@@ -104,6 +108,8 @@ a {
     color: black;
 }
 
+/*About Section*/
+
 .quote p {
     margin-top: 85px;
     text-align: center;
@@ -117,6 +123,8 @@ a {
     margin: 80px 400px;
     padding: 60px;
 }
+
+/*Experience Section*/
 
 .experience-container {
     text-align: center;
@@ -145,6 +153,8 @@ a {
     font-size: 24px;
 
 }
+
+/*Project Section*/
 
 .projects-container h2 {
 padding-top: 60px;
@@ -239,6 +249,8 @@ padding-left: 300px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*Contact Section*/
+
 .contact-container {
     text-align: center;
     padding: 30px;
@@ -281,11 +293,42 @@ hr {
 
 .social-links  a {
     color: white;
-    background-color: #7b8a8b;
+    background-color: rgb(123, 138, 139);
     margin: 20px;
-    padding: 20px 20px;
+    padding: 21px 20px;
     font-size: 30px;
     border-radius: 50%;
-    transition: all 100ms ease-in-out;
+    
+}
+
+.social-links a:hover {
+
+    box-shadow: 0px 0px 10px 2px rgba(123, 138, 139, 0.2), 0px 0px 20px 8px rgba(123, 138, 139, 0.1);
+    transition: all 200ms ease-in-out;
 }
  
+@media (max-width: 991.98px) {
+    .hero {
+    background-position: center;
+    margin-top: 71px;
+    text-align: center;
+    }
+
+.hero h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+.contact-container .email-link {
+    font-size: 40px;
+}
+
+.social-links a {
+    margin: 20px;
+    padding: 21px 20px;
+    font-size: 50px;
+    border-radius: 50%;
+
+}
+
+}
