@@ -4,6 +4,12 @@
 --main-taupe-color: #cec1b0;
 }
 
+full-container {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+
 /*Hero Section*/
 
 .nav-container {
@@ -306,17 +312,112 @@ hr {
     box-shadow: 0px 0px 10px 2px rgba(123, 138, 139, 0.2), 0px 0px 20px 8px rgba(123, 138, 139, 0.1);
     transition: all 200ms ease-in-out;
 }
+
+
  
 @media (max-width: 991.98px) {
-    .hero {
-    background-position: center;
+
+    body {
+        text-align: center;
+    }
+
+.navbar-toggler {
+    margin: 0px;
+}
+    
+.hero {
     margin-top: 71px;
-    text-align: center;
     }
 
 .hero h1 {
-    font-size: 90px;
+    font-size: 55px;
+}
+
+.hero-text {
+    padding-top: 60px;
+    padding-left: 0px;
     text-align: center;
+}
+
+.hero button {
+    font-size: 27px;
+
+}
+
+.col-8{
+
+    width: 100%;
+}
+
+.quote p {
+    padding: 35px;
+    font-size: 38px;
+}
+
+.about-container {
+    margin: 10px;
+    padding: 20px;
+}
+
+.about-container p {
+    font-size: 32px;
+}
+
+.experience-container {
+    margin: 10px;
+}
+
+.experience-container ul {
+    padding-left: 0px;
+}
+
+.experience-container li {
+    font-size: 30px;
+}
+
+.experience-container button {
+    font-size: 30px;
+}
+
+.project {
+    padding: 10px;
+}
+
+.col-6 {
+    width: 100%;
+}
+
+.projects-container h2 {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.project-description {
+    padding: 40px  10px;
+    font-size: 27px;
+}
+
+.tools-text {
+    font-weight: bold;
+}
+
+.project-description p {
+    font-size: 36px;
+}
+.project-description ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.project-description hr {
+    width: 65%;
+    border: white solid 1px;
+    margin: 30px auto;
+}
+
+.contact-container {
+    padding: 10px;
+    margin: 40px;
 }
 
 .contact-container .email-link {
@@ -324,10 +425,8 @@ hr {
 }
 
 .social-links a {
-    margin: 20px;
-    padding: 21px 20px;
     font-size: 50px;
-    border-radius: 50%;
+    
 
 }
 
